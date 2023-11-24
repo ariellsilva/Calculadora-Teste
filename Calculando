@@ -1,0 +1,23 @@
+
+print("Bem-vindo(a) a calculadora teste")
+conta = str(input("Digite qual operação você deseja:"))
+print("-=-" * 20)
+n1 = int(input("Agora digite o número:"))
+n2 = int(input("Digite mais um número:"))
+
+if conta == 'soma':
+    calculando = n1 + n2
+    print("{} + {} = {}".format(n1, n2, calculando))
+    print("Conta finalizada")
+if conta == 'subtração':
+    calculando1 = n1 - n2
+    print("{} - {} = {}".format(n1, n2, calculando1))
+    print("Conta finalizada")
+if conta == 'divisão':
+    calculando2 = n1 / n2
+    print("{] / {} = {}".format(n1, n2, calculando2))
+    print("Conta finalizada")
+if conta == 'multiplicação':
+    calculando3 = n1 * n2
+    print("{} x {} = {}".format(n1, n2, calculando3))
+    print("Conta finalizada")
